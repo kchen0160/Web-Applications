@@ -1,0 +1,37 @@
+body {
+    font-family: Tahoma;
+    font-size: 40px;
+}
+
+.item {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #eeeff2;
+    text-align: left;
+    border-left: 10px dotted #D0D0FF;
+    flex-shrink: 0;
+}
+
+.item:hover{
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.er, .si {
+    background-color: #eeeff2;
+}
+
+.liu {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
