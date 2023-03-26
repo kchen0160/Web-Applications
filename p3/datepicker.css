@@ -1,0 +1,61 @@
+.datepicker {
+    display: inline-block;
+    border: black solid 1px;
+    padding: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  td {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    background-color: whitesmoke;
+    margin: 1px;
+    border: black solid 1px;
+  }
+  
+  td.not-in-month {
+    background-color: transparent;
+    color: grey;
+    cursor: default;
+  }
+
+  td.not-in-month:hover {
+    cursor: default;
+    background-color: transparent;
+    color: grey;
+}
+  
+  td:hover,
+  .month-selector:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+  }
+  
+  .selected-day {
+    background-color: yellow;
+    color: goldenrod;
+    font-weight: bold;
+  }
+  
+  .month-selector {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .year-selector {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
