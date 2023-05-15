@@ -5,7 +5,7 @@ import {
 import './UserDetail.css';
 import {HashRouter as Router, Link} from 'react-router-dom';
 import fetchModel from '../../lib/fetchModelData.js';
-import TopBar from '../TopBar/TopBar.jsx';
+import TopBar from '../TopBar/TopBar';
 
 /**
  * Define UserDetail, a React component of project #5
