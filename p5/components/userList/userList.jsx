@@ -21,7 +21,6 @@ class UserList extends React.Component {
   }
 
   componentDidMount() {
-    // Async call to server
     fetchModel('/user/list')
         .then((response) => {
           let users = response.data;
