@@ -22,7 +22,6 @@ class UserDetail extends React.Component {
 
     componentDidUpdate() {
         let userId = this.props.match.params.userId;
-        // Async call to server
         fetchModel(`/user/${userId}`)
             .then((response) => {
                 let user = response.data;
