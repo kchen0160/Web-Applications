@@ -25,7 +25,6 @@ class UserPhotos extends React.Component {
 
     componentDidUpdate() {
         let userId = this.props.match.params.userId;
-        // Async call to server
         fetchModel(`/photosOfUser/${userId}`)
             .then((response) => {
                 let pics = response.data;
